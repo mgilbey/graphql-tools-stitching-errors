@@ -1,0 +1,34 @@
+{
+  "data": {
+    "cars": [
+      {
+        "inventory": null
+      }
+    ]
+  },
+  "errors": [
+    {
+      "message": "GraphQL spec error message",
+      "locations": [
+        {
+          "line": 1,
+          "column": 12
+        }
+      ],
+      "path": [
+        "cars",
+        0,
+        "inventory"
+      ],
+      "extensions": {
+        "code": "error code",
+        "event": {
+          "name": "event name",
+          "level": "event level",
+          "message": "event message"
+        }
+      }
+    }
+  ],
+  "extensions": {}
+}
